@@ -1,11 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AvaloniaNupkgVersion Condition="$(AvaloniaNupkgVersion) == ''">0.7.1-*</AvaloniaNupkgVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.7.1-*" />
+    <PackageReference Include="Avalonia" Version="$(AvaloniaNupkgVersion)" />
   </ItemGroup>
 
 </Project>

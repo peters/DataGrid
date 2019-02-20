@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AvaloniaNupkgVersion Condition="$(AvaloniaNupkgVersion) == ''">0.7.1-*</AvaloniaNupkgVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.7.1-*" />
+    <PackageReference Include="Avalonia" Version="$(AvaloniaNupkgVersion)" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="**\*.xaml.cs">
