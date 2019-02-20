@@ -1,8 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AvaloniaNupkgVersion Condition="$(AvaloniaNupkgVersion) == ''">0.7.1-*</AvaloniaNupkgVersion>
+    <NoWarn>CS0219;CS0169;CS0618;CS0168;CS0414;CS0649</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
