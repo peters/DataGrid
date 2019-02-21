@@ -1,4 +1,6 @@
-﻿<Styles 
+﻿<!-- ReSharper disable Xaml.DynamicResourceError -->
+
+<Styles 
   xmlns="https://github.com/avaloniaui"
   xmlns:dg="clr-namespace:Avalonia.Controls;assembly=Avalonia.DataGrid"
   xmlns:prim="clr-namespace:Avalonia.Controls.Primitives;assembly=Avalonia.DataGrid">
